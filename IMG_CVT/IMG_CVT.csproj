@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Net12.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <Company>Raphael Frei</Company>
+    <Product>Image Converter</Product>
+    <Description>Convert images to JPG, PNG or ICO</Description>
+    <Copyright>Raphael Frei</Copyright>
+    <PackageIcon>Net12.ico</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Net12.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Net12.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
