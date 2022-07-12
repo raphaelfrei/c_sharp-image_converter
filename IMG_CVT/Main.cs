@@ -73,8 +73,8 @@ namespace IMG_CVT {
 
                 }
 
-            }catch(Exception f) {
-                MessageBox.Show($"An error has occurred: {(char)13}{f}");
+            }catch(Exception) {
+                MessageBox.Show($"An error has occurred: {(char)13}Please make sure that you selected an image file.");
 
             }
         }
