@@ -4,6 +4,8 @@ Convert Images to PNG, JPEG or ICO
 ## About The Program
 Created with C# and .NET to learn about File Manipulation/Streams
 
+It searches with no filters on Explorer, but it only converts images
+
 ## How To Use
 
 > 1 - Open the program
